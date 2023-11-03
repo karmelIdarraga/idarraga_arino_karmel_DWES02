@@ -1,0 +1,82 @@
+[{
+    "usuarios":[{
+        "ID": 1,
+        "DNI":"16071765D",
+        "Nombre":"Karmel",
+        "Apellidos":"Idarraga Ariño",
+        "Email":"kidarraga@birt.eus",
+        "Fecha_Multa":null,
+        "Alquileres":[{
+            "ID_Libro":1,
+            "Fecha_alquiler":"07-07-2023",
+            "Fecha_devolucion":"28-07-2023"
+        },
+        {
+            "ID_Libro":2,
+            "Fecha_alquiler":"07-09-2023",
+            "Fecha_devolucion":"12-09-2023"
+        }
+        ]
+    },
+    {
+        "ID": 2,
+        "DNI":"55555555X",
+        "Nombre":"Iker",
+        "Apellidos":"Zarate",
+        "Email":"izarate@birt.eus",
+        "Fecha_Multa":"15-11-2023",
+        "Alquileres":[{
+            "ID_Libro":1,
+            "Fecha_alquiler":"07-04-2023",
+            "Fecha_devolucion":"28-04-2023"
+        },
+        {
+            "ID_Libro":2,
+            "Fecha_alquiler":"22-10-2023",
+            "Fecha_devolucion":null
+        }
+        ]
+    },
+    {
+        "ID": 3,
+        "DNI":"00000000T",
+        "Nombre":"Iker",
+        "Apellidos":"Labastida",
+        "Email":"ilabastida@birt.eus",
+        "Fecha_Multa":null,
+        "Alquileres":[{
+            "ID_Libro":3,
+            "Fecha_alquiler":"17-10-2023",
+            "Fecha_devolucion":null
+        }
+        ]
+    }
+    ],
+    "libros":[
+        {
+            "ID_Libro":1,
+            "Nombre_Libro":"Desarrollo Web",
+            "Libre":1
+        },
+        {
+            "ID_Libro":2,
+            "Nombre_Libro":"PHP for Dummies",
+            "Libre":0
+        },
+        {
+            "ID_Libro":3,
+            "Nombre_Libro":"Advanced PHP",
+            "Libre":0
+        },
+        {
+            "ID_Libro":4,
+            "Nombre_Libro":"Secretos de Apache",
+            "Libre":1
+        },
+        {
+            "ID_Libro":5,
+            "Nombre_Libro":"Despliegue de aplicaciones en contedendores",
+            "Libre":1
+        }
+    ]
+}]
